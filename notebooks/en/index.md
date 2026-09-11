@@ -7,15 +7,13 @@ applications and solving various machine learning tasks using open-source tools 
 
 Check out the recently added notebooks:
 
-- [Building RAG with Custom Unstructured Data](rag_with_unstructured_data)
-- [Agentic RAG: turbocharge your RAG with query reformulation and self-query! 🚀](agent_rag)
-- [Create a Transformers Agent from any LLM inference provider](agent_change_llm)
-- [Fine-tuning LLM to Generate Persian Product Catalogs in JSON Format](fine_tuning_llm_to_generate_persian_product_catalogs_in_json_format)
-- [Agent for text-to-SQL with automatic error correction](agent_text_to_sql)
-- [Information Extraction with Haystack and NuExtract](information_extraction_haystack_nuextract)
-- [RAG with Hugging Face and Milvus](rag_with_hf_and_milvus)
-- [Data analyst agent: get your data’s insights in the blink of an eye ✨](agent_data_analyst)
-- [Code Search with Vector Embeddings and Qdrant](code_search)
+- [Train a multi-turn Wordle agent with GRPO on OpenEnv using Hugging Face Jobs](grpo_agent_wordle_hf_jobs)
+- [Concurrent Multi-Config SFT Training with RapidFire AI](rapidfire_sft_multiconfig_training)
+- [Optimizing Language Models with DSPy GEPA](dspy_gepa)
+- [Efficient Online Training with GRPO and vLLM in TRL](grpo_vllm_online_training)
+- [Fine-tuning LLMs for Function Calling with the xLAM Dataset](function_calling_fine_tuning_llms_on_xlam)
+- [Post training an VLM for reasoning with GRPO using TRL](fine_tuning_vlm_grpo_trl)
+- [TRL GRPO Reasoning with Advanced Reward](trl_grpo_reasoning_advanced_reward)
 
 You can also check out the notebooks in the cookbook's [GitHub repo](https://github.com/huggingface/cookbook).
 

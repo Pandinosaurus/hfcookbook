@@ -1,0 +1,39 @@
+- title: Açık Kaynak AI Cookbook
+  isExpanded: True
+  sections:
+    - local: index
+      title: Genel Bakış
+
+    - title: LLM Tarifleri
+      isExpanded: false
+      sections:
+        - local: fine_tuning_code_llm_on_single_gpu
+          title: Kod Dil Modelini Tek GPU'da Fine-Tune Etmek
+
+    - title: Bilgisayarlı Görü Uygulamaları
+      isExpanded: false
+      sections:
+        - local: semantic_segmentation_fine_tuning_inference
+          title: Özel Bir Veri Seti Üzerinde Anlamsal Segmentasyon Modeli Fine-Tuning ve Inference API Üzerinden Kullanımı
+        - local: fine_tuning_detr_custom_dataset
+          title: Özel Verisetini DETR Modeli ile Fine-Tuning ederek Nesne Tespiti Yapımı  🖼, Spaces Üzerinde Gösterimi ve Gradio API Entegrasyonu
+        - local: fine_tuning_vit_custom_dataset
+          title: Vision Transformer Modelini Özel Bir Biyomedikal Verisetiyle Fine-Tune Etmek
+
+    - title: Multimodal Tarifleri
+      isExpanded: false
+      sections:
+        - local: analyzing_art_with_hf_and_fiftyone
+          title: Multimodal Embedding ile Sanatsal Stillerin Analizi
+
+    - title: Ajanlar için Tarifler
+      isExpanded: false
+      sections:
+        - local: agents
+          title: Transformers Agents kullanarak tool-calling süper güçleriyle donatılmış bir ajan oluşturun 🦸
+
+    - title: Ajan Uygulamaları
+      isExpanded: false
+      sections:
+        - local: agent_data_analyst
+          title: Veri Analizi Ajanı - Göz açıp kapayıncaya kadar verilerinizi analiz edin ✨

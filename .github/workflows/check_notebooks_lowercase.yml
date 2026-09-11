@@ -7,14 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
     - name: Check filenames in 'notebooks/'
       run: |
         # Change to the directory where you want to check filenames
         cd notebooks
         # Find files with uppercase characters in their names
-        files=$(find . -type f | grep '[A-Z]' || true)
+        files=$(find . -type f -name '*.ipynb' -exec basename {} \;| grep '[A-Z]' || true)
         if [ -n "$files" ]; then
             echo "The following files are not lowercase:"
             echo "$files"
